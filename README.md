@@ -1,4 +1,4 @@
-# epidemic-simulator
+# Epidemic Simulator
 
 This simulates the spread of an infectious disease. To do this, we use bouncing balls to model people moving around. If an infected ball collides with a healthy ball, the healthy ball will become sick. The user can alter four variables to see what happens in the simulation:
 
