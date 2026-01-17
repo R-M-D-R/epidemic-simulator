@@ -4,6 +4,8 @@ How does an infectious disease spread through a population?
 
 This project simulates the spread of a disease using bouncing balls to represent people. When an infected ball collides with a healthy one, the healthy individual becomes sick. The simulation allows users to experiment with key variables and observe how small changes affect the course of an outbreak.
 
+![Epidemic simulation](images/epidemic.png)
+
 The simulation visualizes the population over time using a stacked area chart. The chart’s height represents 100% of the population, and the colors indicate the proportions of healthy, sick, recovered, and deceased individuals. Hover over the chart to see detailed population statistics at any moment.
 
 ## Motivation
