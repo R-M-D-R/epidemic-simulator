@@ -22,5 +22,3 @@ I wanted to create a visual, interactive model to explore disease dynamics. This
 
 - Python
 - Pygame
-
-Project Structure
