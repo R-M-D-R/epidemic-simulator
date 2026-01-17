@@ -1,18 +1,26 @@
 # Epidemic Simulator
 
-This simulates the spread of an infectious disease. To do this, we use bouncing balls to model people moving around. If an infected ball collides with a healthy ball, the healthy ball will become sick. The user can alter four variables to see what happens in the simulation:
+How does an infectious disease spread through a population?
 
--the disease's incubation period (this is the period of time from when a healthy person contracts the disease but exhibits no symptoms--and is contagious!)
+This project simulates the spread of a disease using bouncing balls to represent people. When an infected ball collides with a healthy one, the healthy individual becomes sick. The simulation allows users to experiment with key variables and observe how small changes affect the course of an outbreak.
 
--for how long someone is sick
+The simulation visualizes the population over time using a stacked area chart. The chart’s height represents 100% of the population, and the colors indicate the proportions of healthy, sick, recovered, and deceased individuals. Hover over the chart to see detailed population statistics at any moment.
 
--the mortality rate of the disease (this will be a percent)
+## Motivation
 
--the population size (the default is 100 people)
+I wanted to create a visual, interactive model to explore disease dynamics. This project helps demonstrate how contagiousness, illness duration, mortality, and population size influence outbreaks — all without relying on abstract equations alone.
 
+## Features
 
-The information from the model is presented at the top of the screen as a type of stacked area chart. The height of the chart represents 100% of the people, and the different colors represent the proportions of the population (sick, healthy, recovered, dead). Hover your mouse over the chart to obtain more accurate information!
+- Adjustable incubation period (infected but asymptomatic and contagious)
+- Configurable infection duration
+- Settable mortality rate
+- Variable population size (default: 100 people)
+- Real-time visualization with stacked area chart showing healthy, sick, recovered, and deceased proportions
 
-Enjoy!
+### Technologies
 
--Robin
+- Python
+- Pygame
+
+Project Structure
